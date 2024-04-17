@@ -1,0 +1,28 @@
+#banner {
+    text-align: center;
+    background-color: #f1e9e9;
+    padding: 8px;
+}
+#info {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #c9c3c3;
+    font-weight: bold;
+    font-size: 10pt;
+}
+#plan {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#personal{
+    text-align: center;
+    margin: auto;
+}    
+#meals {
+    margin: auto;
+}
+#mealPlan{
+    text-align: center;
+}
