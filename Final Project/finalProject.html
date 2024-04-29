@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB-115 Final Project</title>
     <link rel="stylesheet" href="finalproject.css">
+    <!-- Brooke Moran
+         April 26, 2024
+         WEB115.0001
+         Final Project: Meal Planner
+    -->
 </head>
 <body>
     <!-- Banner -->
@@ -16,98 +21,93 @@
     </div>
 
     <!-- Meal plan form -->
-    <table id="meals">
-        <tr>
-            <th>Day</th>
-            <th>Breakfast</th>
-            <th>Snack</th>
-            <th>Lunch</th>
-            <th>Snack</th>
-            <th>Dinner</th>
-        </tr>
-        <tr>
-            <td id="Monday">Monday</td>
-            <td><input type="text" id="monBreakfast"></td>
-            <td><input type="text" id="monSnack1"></td>
-            <td><input type="text" id="monLunch"></td>
-            <td><input type="text" id="monSnack2"></td>
-            <td><input type="text" id="monDinner"></td>
-        </tr>
-        <tr>
-            <td id="Tuesday">Tuesday</td>
-            <td><input type="text" id="tuesBreakfast"></td>
-            <td><input type="text" id="tuesSnack1"></td>
-            <td><input type="text" id="tuesLunch"></td>
-            <td><input type="text" id="tuesSnack2"></td>
-            <td><input type="text" id="tuesDinner"></td>
-        </tr>
-        <tr>
-            <td id="Wednesday">Wednesday</td>
-            <td><input type="text" id="wedBreakfast"></td>
-            <td><input type="text" id="wedSnack1"></td>
-            <td><input type="text" id="wedLunch"></td>
-            <td><input type="text" id="wedSnack2"></td>
-            <td><input type="text" id="wedDinner"></td>
-        </tr>
-        <tr>
-            <td id="Thursday">Thursday</td>
-            <td><input type="text" id="thurBreakfast"></td>
-            <td><input type="text" id="thurSnack1"></td>
-            <td><input type="text" id="thurLunch"></td>
-            <td><input type="text" id="thurSnack2"></td>
-            <td><input type="text" id="thurDinner"></td>
-        </tr>
-        <tr>
-            <td id="Friday">Friday</td>
-            <td><input type="text" id="friBreakfast"></td>
-            <td><input type="text" id="friSnack1"></td>
-            <td><input type="text" id="friLunch"></td>
-            <td><input type="text" id="friSnack2"></td>
-            <td><input type="text" id="friDinner"></td>
-        </tr>
-        <tr>
-            <td id="Saturday">Saturday</td>
-            <td><input type="text" id="satBreakfast"></td>
-            <td><input type="text" id="satSnack1"></td>
-            <td><input type="text" id="satLunch"></td>
-            <td><input type="text" id="satSnack2"></td>
-            <td><input type="text" id="satDinner"></td>
-        </tr>
-        <tr>
-            <td id="Sunday">Sunday</td>
-            <td><input type="text" id="sunBreakfast"></td>
-            <td><input type="text" id="sunSnack1"></td>
-            <td><input type="text" id="sunLunch"></td>
-            <td><input type="text" id="sunSnack2"></td>
-            <td><input type="text" id="sunDinner"></td>
-        </tr>
-    </table>
-    
-    <table id="meals">
-        <tr id="personal">
-            <th>Your Name</th>
-            <th>Email Address</th>
-            <th>Goal</th>
-        </tr>
-        <tr>
-            <td><input type="text" id="yourName"></td>
-            <td><input type="text" id="email"></td>
-            <td><input type="text" id="goal"></td>
-        </tr>
-    </table>
-    <!-- <p id="info">*Please input your email. (Required Field)</p> -->
+    <form id="personalInfoForm">
+        <table id="meals">
+            <tr>
+                <th>Day</th>
+                <th>Breakfast</th>
+                <th>Snack</th>
+                <th>Lunch</th>
+                <th>Snack</th>
+                <th>Dinner</th>
+            </tr>
+            <tr>
+                <td id="Monday">Monday</td>
+                <td><input type="text" id="Monday Breakfast"></td>
+                <td><input type="text" id="Monday Snack1"></td>
+                <td><input type="text" id="Monday Lunch"></td>
+                <td><input type="text" id="Monday Snack2"></td>
+                <td><input type="text" id="Monday Dinner"></td>
+            </tr>
+            <tr>
+                <td id="Tuesday">Tuesday</td>
+                <td><input type="text" id="Tuesday Breakfast"></td>
+                <td><input type="text" id="Tuesday Snack1"></td>
+                <td><input type="text" id="Tuesday Lunch"></td>
+                <td><input type="text" id="Tuesday Snack2"></td>
+                <td><input type="text" id="Tuesday Dinner"></td>
+            </tr>
+            <tr>
+                <td id="Wednesday">Wednesday</td>
+                <td><input type="text" id="Wednesday Breakfast"></td>
+                <td><input type="text" id="Wednesday Snack1"></td>
+                <td><input type="text" id="Wednesday Lunch"></td>
+                <td><input type="text" id="Wednesday Snack2"></td>
+                <td><input type="text" id="Wednesday Dinner"></td>
+            </tr>
+            <tr>
+                <td id="Thursday">Thursday</td>
+                <td><input type="text" id="Thursday Breakfast"></td>
+                <td><input type="text" id="Thursday Snack1"></td>
+                <td><input type="text" id="Thursday Lunch"></td>
+                <td><input type="text" id="Thursday Snack2"></td>
+                <td><input type="text" id="Thursday Dinner"></td>
+            </tr>
+            <tr>
+                <td id="Friday">Friday</td>
+                <td><input type="text" id="Friday Breakfast"></td>
+                <td><input type="text" id="Friday Snack1"></td>
+                <td><input type="text" id="Friday Lunch"></td>
+                <td><input type="text" id="Friday Snack2"></td>
+                <td><input type="text" id="Friday Dinner"></td>
+            </tr>
+            <tr>
+                <td id="Saturday">Saturday</td>
+                <td><input type="text" id="Saturday Breakfast"></td>
+                <td><input type="text" id="Saturday Snack1"></td>
+                <td><input type="text" id="Saturday Lunch"></td>
+                <td><input type="text" id="Saturday Snack2"></td>
+                <td><input type="text" id="Saturday Dinner"></td>
+            </tr>
+            <tr>
+                <td id="Sunday">Sunday</td>
+                <td><input type="text" id="Sunday Breakfast"></td>
+                <td><input type="text" id="Sunday Snack1"></td>
+                <td><input type="text" id="Sunday Lunch"></td>
+                <td><input type="text" id="Sunday Snack2"></td>
+                <td><input type="text" id="Sunday Dinner"></td>
+            </tr>
+        </table>
 
-    <!-- Button -->
-    <div id="mealPlan"><br>
-    <button id="button" onclick="showMealPlan()">Generate Meal Plan</button>
-    <button id="print" onclick="showMealPlan()">Print</button>
-    <button id="download" onclick="showMealPlan()">Download</button>
-    <button id="clear" onclick="clearFields()">Clear</button>
-    </div>
-    <!-- Include input fields for meals, email, and goal -->
-    <!-- Add buttons for Clear, Print/Download, and Generate Meal Plan -->
-
-    <!-- JavaScript file -->
+        <table id="personalInfo">
+            <tr id="personal">
+                <th>Your Name</th>
+                <th>Email Address</th>
+                <th>Goal</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email address" required></td>
+                <td><input type="text" id="goal" name="goal" placeholder="What is your goal?" required></td>
+            </tr>
+        </table>
+        <!-- Buttons -->
+        <div id="mealPlan"><br>
+            <button type="submit" id="button"onclick="generateMealPlan()">Generate Meal Plan</button>
+        <button type="button" id="print" onclick="printPlan()">Print</button>
+        <button type="button" id="clear" onclick="clearFields()">Clear</button>
+        </div>
+    </form>
     <script src="projectJS.js"></script>
 </body>
 </html>

@@ -15,14 +15,14 @@
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-}
-#personal{
-    text-align: center;
-    margin: auto;
-}    
+}   
 #meals {
     margin: auto;
 }
+#personalInfo{
+    text-align: center;
+    margin: auto;
+} 
 #mealPlan{
     text-align: center;
 }
